@@ -37,10 +37,9 @@ public class APIMovies {
         con.setRequestMethod("GET");
         con.setRequestProperty("User-Agent", USER_AGENT);
 
-        // JsonObject finalResponse = null;
+       
 
-        // The following invocation perform the connection implicitly before getting the
-        // code
+     
         int responseCode = con.getResponseCode();
         System.out.println("GET Response Code :: " + responseCode);
 
@@ -55,8 +54,7 @@ public class APIMovies {
             }
             in.close();
 
-            // finalResponse =
-            // JsonParser.parseString(response.toString()).getAsJsonObject();
+          
 
             cache.addMovieToCache(name, JsonParser.parseString(response.toString()).getAsJsonObject());
             // print result
