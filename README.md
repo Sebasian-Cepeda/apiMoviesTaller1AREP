@@ -29,7 +29,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Autor
 
-* **Juan cepeda** 
+* **Juan cepeda** Estudiante de noveno semestre de ING.sistemas de la Escuela Colombiana de Ingenieria Julio Garavito
 
 <!--
 ## License
